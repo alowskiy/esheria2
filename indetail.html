@@ -115,7 +115,7 @@
         </div>
     </div>
     </section>
-    <footer class="footer f2">
+    <footer class="footer f2" id="six">
     <div class="socs">
         <div class="soc"><img src="imgs/tg.png" alt=""></div>
         <div class="soc"><img src="imgs/ds.png" alt=""></div>
@@ -142,13 +142,14 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("two"),
     document.getElementById("three"),
     document.getElementById("four"),
-      document.getElementById("five")
+      document.getElementById("five"),
+           document.getElementById("six")
   ];
 
   var currentIndex = 0;
   var scrolling = false;
   var lastScrollTime = 0;
-  var cooldownTime = 800; // Время ожидания перед следующим скроллом
+  var cooldownTime = 1200; // Время ожидания перед следующим скроллом
 
   function scrollToSection(section) {
     if (scrolling || !section) return;
@@ -190,7 +191,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("m2"),
     document.getElementById("three"),
     document.getElementById("four"),
-      document.getElementById("five")
+      document.getElementById("five"),
+       document.getElementById("six")
   ];
 
   var currentIndex = 0;
