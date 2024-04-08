@@ -208,13 +208,14 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("three"),
     document.getElementById("four"),
       document.getElementById("five"),
+      document.getElementById("six"),
            
   ];
 
   var currentIndex = 0;
   var scrolling = false;
   var lastScrollTime = 0;
-  var cooldownTime = 800; // Время ожидания перед следующим скроллом
+  var cooldownTime = 1200; // Время ожидания перед следующим скроллом
 
   function scrollToSection(section) {
     if (scrolling || !section) return;
