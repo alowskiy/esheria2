@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var currentIndex = 0;
   var scrolling = false;
   var lastScrollTime = 0;
-  var cooldownTime = 1200; // Время ожидания перед следующим скроллом
+  var cooldownTime = 600; // Время ожидания перед следующим скроллом
 
   function scrollToSection(section) {
     if (scrolling || !section) return;
@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     setTimeout(function() {
       scrolling = false;
-    }, 1000);
+    }, 1);
   }
 
   window.addEventListener("wheel", function(event) {
