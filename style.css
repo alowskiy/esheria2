@@ -59,10 +59,10 @@ button{
 
 
  .swiper-button-next{
-margin-top: 18% !important;
+margin-top: 0% !important;
 }
 .swiper-button-prev{
-margin-top: 18% !important;
+margin-top: 0% !important;
 }
 
 .swiper-slide>div:first-of-type{
